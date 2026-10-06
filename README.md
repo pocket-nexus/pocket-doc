@@ -40,7 +40,7 @@ Use the 3DS build prerequisites described by the pinned runtime's
 `hosts/3ds/README.md` (Rust toolchain, QuickJS sources and devkitARM container).
 
 ```sh
-git clone --recursive https://github.com/pocket-stack/pocket-doc.git
+git clone --recursive https://github.com/pocket-nexus/pocket-doc.git
 cd pocket-doc
 bun install --cwd runtime --frozen-lockfile
 bun scripts/setup.ts
